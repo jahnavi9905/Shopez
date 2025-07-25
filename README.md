@@ -1,57 +1,70 @@
-🛒 ShopEZ - Ecommerce Website ShopEZ is a full-stack ecommerce web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js). It provides a seamless online shopping experience for customers and an efficient management dashboard for sellers.
+# Getting Started with Create React App
 
-📌 Features 🛍️ For Customers: User Registration & Login (JWT Authentication)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Product Browsing and Search
+## Available Scripts
 
-Add to Cart
+In the project directory, you can run:
 
-Place Orders
+### `npm start`
 
-View Order History
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-🧑‍💼 For Sellers/Admin: Product Management (Add, Update, Delete Products)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Order Management
+### `npm test`
 
-Dashboard Analytics
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-🏗️ Tech Stack Technology Usage Frontend React.js Backend Node.js, Express.js Database MongoDB (Mongoose) Styling CSS, Bootstrap, etc
+### `npm run build`
 
-📂 Project Structure bash Copy Edit ShopEZ-ecommerce-website-master/ ├── client/ # React Frontend ├── server/ # Node.js Backend (Express API) ├── demo.mp4 # Project Demo Video ├── README.md # Project Info 🚀 Installation & Running Locally Prerequisites: Node.js
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-MongoDB (Local or Atlas)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Backend Setup: bash Copy Edit cd server npm install Create a .env file inside /server and add your MongoDB connection string:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-ini Copy Edit MONGO_URL=your_mongodb_connection_string PORT=6001 JWT_SECRET=your_jwt_secret Run the backend server:
+### `npm run eject`
 
-bash Copy Edit npm start Frontend Setup: bash Copy Edit cd ../client npm install npm start Frontend runs at: http://localhost:3000
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Backend runs at: http://localhost:6001
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-📽️ Demo Video ▶️ Watch Project Demo
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-✅ Functionalities Covered: User authentication with JWT
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-CRUD for products
+## Learn More
 
-Cart functionality
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Placing orders
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Admin product management
+### Code Splitting
 
-Order status updates
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-RESTful API with Express
+### Analyzing the Bundle Size
 
-State management with React Hooks & Context API (if used)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-🛠️ Future Improvements: Payment gateway integration (e.g., Stripe, Razorpay)
+### Making a Progressive Web App
 
-Deployment (Netlify for frontend, Render/Heroku for backend)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-Image uploads for products
+### Advanced Configuration
 
-More user roles (like Admin, Seller)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
