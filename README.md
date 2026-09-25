@@ -1,58 +1,47 @@
-🛒 ShopEZ - Ecommerce Website ShopEZ is a full-stack ecommerce web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js). It provides a seamless online shopping experience for customers and an efficient management dashboard for sellers.
+# 🛒 ShopEZ – E-Commerce Web Application
 
-📌 Features 🛍️ For Customers: User Registration & Login (JWT Authentication)
+ShopEZ is a full-stack e-commerce web application built using the **MERN stack** — MongoDB, Express.js, React.js, and Node.js.
 
-Product Browsing and Search
+The application provides an online shopping experience for customers along with management functionality for sellers/admins.
 
-Add to Cart
+## ✨ Features
 
-Place Orders
+### 🛍️ Customer Features
 
-View Order History
+- User registration and login
+- JWT-based authentication
+- Product browsing and search
+- Add products to cart
+- Place orders
+- View order history
 
-🧑‍💼 For Sellers/Admin: Product Management (Add, Update, Delete Products)
+### 🧑‍💼 Seller / Admin Features
 
-Order Management
+- Add, update, and delete products
+- Product management
+- Order management
+- Dashboard analytics
+- Order status management
 
-Dashboard Analytics
+## 🛠️ Technology Stack
 
-🏗️ Tech Stack Technology Usage Frontend React.js Backend Node.js, Express.js Database MongoDB (Mongoose) Styling CSS, Bootstrap, etc
+| Technology | Usage |
+|------------|-------|
+| React.js | Frontend |
+| Node.js | Backend runtime |
+| Express.js | REST API / Backend |
+| MongoDB | Database |
+| Mongoose | MongoDB object modeling |
+| JavaScript | Application development |
+| CSS | Styling |
+| Bootstrap | UI styling |
+| JWT | Authentication |
 
-📂 Project Structure bash Copy Edit ShopEZ-ecommerce-website-master/ ├── client/ # React Frontend ├── server/ # Node.js Backend (Express API) ├── demo.mp4 # Project Demo Video ├── README.md # Project Info 🚀 Installation & Running Locally Prerequisites: Node.js
+## 📂 Project Structure
 
-MongoDB (Local or Atlas)
-
-Backend Setup: bash Copy Edit cd server npm install Create a .env file inside /server and add your MongoDB connection string:
-
-ini Copy Edit MONGO_URL=your_mongodb_connection_string PORT=6001 JWT_SECRET=your_jwt_secret Run the backend server:
-
-bash Copy Edit npm start Frontend Setup: bash Copy Edit cd ../client npm install npm start Frontend runs at: http://localhost:3000
-
-Backend runs at: http://localhost:6001
-
-📽️ Demo Video ▶️ Watch Project Demo
-
-✅ Functionalities Covered: User authentication with JWT
-
-CRUD for products
-
-Cart functionality
-
-Placing orders
-
-Admin product management
-
-Order status updates
-
-RESTful API with Express
-
-State management with React Hooks & Context API (if used)
-
-🛠️ Future Improvements: Payment gateway integration (e.g., Stripe, Razorpay)
-
-Deployment (Netlify for frontend, Render/Heroku for backend)
-
-Image uploads for products
-
-More user roles (like Admin, Seller)
-
+```text
+ShopEZ-ecommerce-website-master/
+├── client/              # React frontend
+├── server/              # Node.js + Express backend
+├── demo.mp4             # Project demonstration
+└── README.md            # Project documentation
